@@ -42,6 +42,21 @@ input[type="number"] {
     font-size: 1em;
 }
 
+.button {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px; /* Add some space below the button */
+    text-decoration: none; /* If you use an <a> tag instead */
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}
+
 button {
     padding: 12px 20px; /* Slightly larger padding */
     background-color: #007bff;
